@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+svg:hover {
+    fill: #003cbc;
+}
+
+.site-header {}
+
+.header-wrapper {
+    margin-bottom: 22px;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 14px 0;
+    border-bottom: 1px solid black;
+}
+
+.header-back {}
+
+.header-back-link {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    &:hover {
+        text-decoration: none;
+        color: #003cbc;
+    }
+}
+
+.header-nashr-title {
+    small {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.header-nashr-title-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+
+    &:hover {
+        color: #003cbc;
+    }
+}
+
+
+.section-asarlar {}
+
+.asarlar-wrapper {}
+
+.asarlar-items {
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+.asarlar-item {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
